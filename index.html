@@ -43,6 +43,11 @@
 
                     404px, 920px, 1280px
                     -->
+                    <picture>
+                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s"/>
+                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m"/>
+                        <source media="(min-width: 1280px)" srcset="images/majorca-beach-square-l"/>
+                    </picture>
                     <small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
                 </div>
             </section>
@@ -90,8 +95,8 @@
                 <h3>Testimonials</h3>
 
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/miranda-blake-L.png" 
+                    <img 
+                        src="images/miranda-blake-L.png" 
                         images/miranda-blake-S.png 404w
                         images/miranda-blake-M.png 920w
                         images/miranda-blake-L.png 1280w
@@ -216,7 +221,7 @@
     </main>
     <footer>
         <section id="contact-us">
-            Contact Us <span id="required">(*required)</span>
+            <h2>Contact Us <span id="required">(*required)</span></h2>
             
                 <div>
                     <label>First Name<span>*</span></label>
