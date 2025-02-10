@@ -6,6 +6,8 @@
 
     <title>Wonderlust Travel- Destination Majorca</title>
     <link rel="stylesheet" href="styles.css">
+    <a class="sr-only" href="#intro">
+        Skip to main content</a>
 </head>
 <body>
 
@@ -32,15 +34,18 @@
         <article>
             <h2>Majorca</h2>
             <section id="intro">
+                <a class="sr-only" href="plan-your-trip">
+                    Skip to plan your trip</a>
                 <h3>Introduction</h3>
                 <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                 <div>
                     <picture>
-                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s.jpg"/>
-                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg"  />
                         <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg" />
-                        <img href="images/majorca-beach-square-s.jpg" alt="Majorca beach with waves beating against the shore and the sunset in the back behind the skyline." >
+                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg" />
+                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s.jpg"/>
+                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca beach with waves beating against the shore and the sunset in the back behind the skyline.">
                     </picture>
+                    
                 <!--Responsive Image for Art Direction
                     images/majorca-beach-square-s.jpg
                     images/majorca-beach-vertical-m.jpg
@@ -52,8 +57,10 @@
                 </div>
             </section>
             <section id="plan-your-trip">
+                <a class="sr-only" href="testimonials">
+                    Skip to testimonials</a>
                 <h3>Plan Your Trip</h3>
-
+                
                 <section class="plan">
                     <h4>How to Get There</h4>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#1B263B" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -92,9 +99,17 @@
                 </section>
             </section>
             <section id="testimonials">
+                <a class="sr-only" href="about-your-destination">
+                    Skip to about your destination</a>
                 <h3>Testimonials</h3>
 
                 <section>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg" />
+                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg" />
+                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s.jpg"/>
+                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca beach with waves beating against the shore and the sunset in the back behind the skyline.">
+                    </picture>
                     <!--Responsive Image for resolution switching
                         images/miranda-blake-L.png" 
                         images/miranda-blake-S.png 404w
@@ -102,15 +117,21 @@
                         images/miranda-blake-L.png 1280w
                     -->
                         <div>
-                        Miranda Blake
-                        <dl>
-                            <dt>Traveling From:</dt>
-                            <dd>London, England</dd>
-                        </dl>
-                        "I traveled here for business, but my stay was extended. Now it is my home."
+                            <h4>Miranda Blake</h4>
+                            <dl>
+                                <dt>Traveling From:</dt>
+                                <dd>London, England</dd>
+                            </dl>
+                            <p>"I traveled here for business, but my stay was extended. Now it is my home."</p>
                     </div>
                 </section>
                 <section>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg" />
+                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg" />
+                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s.jpg"/>
+                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca beach with waves beating against the shore and the sunset in the back behind the skyline.">
+                    </picture>
                     <!--Responsive Image for resolution switching
                         images/max-winter-L.png
                         images/max-winter-S.png 404w
@@ -127,6 +148,12 @@
                     </div>
                 </section>
                 <section>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg" />
+                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg" />
+                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s.jpg"/>
+                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca beach with waves beating against the shore and the sunset in the back behind the skyline.">
+                    </picture>
                     <!--Responsive Image for resolution switching
                         images/ines-villegoes-L.png
                         images/ines-villegoes-S.png 404w
@@ -143,6 +170,12 @@
                     </div>
                 </section>
                 <section>
+                    <picture>
+                        <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg" />
+                        <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg" />
+                        <source media="(min-width: 404px)" srcset="images/majorca-beach-square-s.jpg"/>
+                        <img src="images/majorca-beach-square-s.jpg" alt="Majorca beach with waves beating against the shore and the sunset in the back behind the skyline.">
+                    </picture>
                     <!--Responsive Image for resolution switching
                         images/carmen-lorenzo-L.png
                         images/carmen-lorenzo-S.png 404w
@@ -160,6 +193,8 @@
                 </section>
             </section>
             <section id="about-your-destination">
+                <a class="sr-only" href="contact-us">
+                    Skip to contact us</a>
                 <h3>About Your Destination</h3>
 
                 <section>
@@ -223,7 +258,7 @@
         <section id="contact-us">
             <h2>Contact Us <span id="required">(*required)</span></h2>
             
-                <form>
+                <form action="#" method="POST">
                     <label for="firstName">First Name<span>*</span></label>
                     <input name="firstName" id="firstName" type="text" placeholder="First Name" required autocomplete>
 
